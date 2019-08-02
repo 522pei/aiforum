@@ -1,0 +1,325 @@
+/* base */
+html{
+    font-family: 'Roboto', sans-serif;
+    font-size: 62.5%;
+    color:#333333;
+}
+h1{
+    font-size: 8.8rem;
+    font-weight: bold;
+    color: #fff;
+}
+h2{
+    font-size: 3.6rem;
+    padding-top: 3.5rem;
+    padding-bottom: 3.5rem;
+    background: linear-gradient(90deg, #425296 0%, #078576 100%);
+    text-align: center;
+    color: #fff;
+    margin-bottom: 80px;
+}
+h3{
+    font-size: 1.6rem;
+    font-weight: bold;
+    text-align: center;
+}
+p{
+    font-size: 1.6rem;
+    text-align: center;
+    letter-spacing: 0.05em;
+    line-height: 2.4rem;
+}
+img{
+    width: 100%;
+}
+.logo{
+    height:77px;
+    width:46px;
+    margin:0 auto;
+}
+.text-left{
+    text-align: left;
+}
+.section-text{
+    margin-bottom: 80px;
+}
+footer{
+    background-color: #454548;
+    color:#fff;
+}
+small{
+    display: block;
+    text-align: center;
+    font-size: 16px;
+    font-family: 'Roboto';
+    line-height: 2.4rem;
+    letter-spacing: 0.05em;
+}
+/* header */
+.header{
+    background-image: url(../images/hero-img.jpg);
+    color:#fff;
+    background-size: cover;
+    background-position: center;
+    padding-top:161px;
+    padding-bottom:161px;
+}
+.logo{
+        width:77px;
+        height:46px;
+        margin-bottom: 20px;
+        padding-top: 30px;
+    }
+/* .title{
+    margin-bottom:30px;
+} */
+.number{
+    font-size: 5.2rem;
+}
+.time{
+    font-size: 6.2rem;
+    margin-top:30px;
+}
+.time span{
+    font-size:3.5rem;
+    letter-spacing: 0.04em;
+    writing-mode:vertical-rl;
+}
+.place{
+    font-size:4.6rem;
+    margin-top:30px;
+}
+.fv{
+    background:linear-gradient(90deg, rgba(12, 7, 133, 0.7) 0%, rgba(7, 133, 118, 0.7) 100%);
+    padding-bottom: 30px;
+}
+.fv__inner__text{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    width:598px;
+    margin: 0 auto;
+}
+
+/* CONCEPT */
+.CONCEPT h3{
+    margin-bottom: 60px;
+}
+.CONCEPT p{
+    max-width: 760px;
+    margin: 0 auto;
+    margin-bottom: 115px;
+}
+/* GUEST */
+.GUEST__content{
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 80px;
+}
+.GUEST__content span{
+    margin-left: 23px;
+}
+.GUEST h3{
+    margin-bottom: 40px;
+}
+.GUEST p{
+    max-width: 435px;
+    margin-left: 60px;
+}
+.GUEST__left{
+    max-width: 265px;
+}
+
+/* ENTRY */
+.entry__subtitle,.entry__subtitle__condition{
+    margin-bottom: 15px;
+}
+.entry__subtitle__condition{
+    margin-top: 50px;
+}
+form{
+    display: block;
+    margin-top: 122px;
+}
+.item{
+    margin-top: 70px;
+}
+.flexbox{
+    display: flex;
+    width:550px;
+    margin: 0 auto;
+    margin-top:70px;
+    align-items: center;
+}
+.flexbox p{
+   margin-right: 73px;
+}
+label{
+    margin-right: 13px;
+}
+#employee,#other{
+    margin-right: 13px;
+}
+input{
+    border:1px solid #999999;
+    border-right: none;
+    border-left: none;
+    border-top: none;
+    height:40px;
+}
+.input-text{
+    max-width: 550px;
+    margin: 0 auto;
+    margin-top: 70px;
+}
+.inputs{
+    display: block;
+    margin: 0 auto;
+    width: 550px;
+}
+/* btn */
+.ENTRY__btn{
+    text-align: center;
+}
+a{
+    color: #fff;
+    font-size: 2.4rem;
+    text-decoration: none;
+    margin: 0 auto;
+}
+.btn{
+    display: inline-block;
+    margin-top: 80px;
+    margin-bottom: 140px;
+    padding:25px 125px;
+    background: linear-gradient(0deg, #425296 0%, #078576 100%);
+}
+
+/* footer */
+.footer{
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+.footer p{
+    letter-spacing: 0.06em;
+}
+.footer__text{
+    margin-top: 20px;
+    margin-bottom: 100px;
+}
+@media screen and (max-width: 768px){
+    .CONCEPT p{
+        max-width: 600px;
+        margin: 0 auto;
+        margin-bottom: 115px;
+    }
+    .GUEST p {
+        max-width: 330px;
+        margin-left: 60px;
+    }
+    .GUEST__left{
+        max-width: 230px;
+    }
+    .entry-text{
+        max-width: 600px;
+        margin: 0 auto;
+    }
+}
+@media screen and (max-width: 480px){
+    .logo{
+        width:53px;
+        height:31px;
+        margin-bottom: 13px;
+        padding-top: 12px;
+    }
+    .header{
+        padding-top:75px;
+        padding-bottom:75px;
+    }
+    h1{
+        font-size: 4.4rem;
+        font-weight: 900;
+    }
+    h2{
+        font-size: 2rem;
+        padding-top: 18px;
+        padding-bottom: 18px;
+        background: linear-gradient(90deg, #425296 0%, #078576 100%);
+        text-align: center;
+        color: #fff;
+        margin-bottom: 50px;
+    }
+    .number{
+        font-size: 2.6rem;
+    }
+    .time{
+        font-size: 3.1rem;
+        margin-top: 13px;
+    }
+    .time span{
+        font-size: 1.5rem;
+    }
+    .place{
+        font-size: 2.4rem;
+        margin-top: 13px;
+    }
+    .fv__inner__text {
+        width: 286px;
+    }
+    .fv{
+        padding-bottom: 12px;
+    }
+    .CONCEPT h3 {
+        margin-bottom: 20px;
+    }
+    .CONCEPT p{
+        max-width: 325px;
+        margin: 0 auto;
+        margin-bottom: 50px;
+    }
+    .GUEST__content {
+        flex-direction:column-reverse;
+    }
+    .GUEST h3 {
+        margin-top: 30px;
+        margin-bottom: 20px;
+    }
+    .GUEST p {
+        max-width: 325px;
+        margin:0 auto;
+    }
+    .GUEST__left{
+        max-width: 265px;
+    }
+    .entry-text{
+        max-width: 325px;
+        text-align: left;
+    }
+    form {
+        margin-top: 35px;
+        font-size: 1.6rem;
+    }
+    #employee, #other {
+        margin-right: 0;
+    }
+    .inputs {
+        width: 325px;
+    }
+    .input-text {
+        max-width: 325px;
+        margin: 0 auto;
+    }
+    .flexbox {
+        display: block;
+        width: 325px;
+    }
+    .flexbox p{
+        text-align: left;
+}
+label {
+    margin-right: 25px;
+}
+}
